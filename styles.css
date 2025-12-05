@@ -60,7 +60,7 @@ li a::before{
   transition: 0.3s ease-in-out;
   background: linear-gradient(to right, rgb(0, 157, 255), rgb(255, 0, 255));
 }
-li a :hover::before{
+li a:hover::before{
   width: 100%;
 }
 .visit-btn{
