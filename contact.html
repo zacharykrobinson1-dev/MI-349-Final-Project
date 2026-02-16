@@ -22,21 +22,42 @@
   </ul>
 
   <a href="https://github.com/zacharykrobinson1-dev" target="_blank" class="visit-btn">Visit Github</a>
-
 </header>
 
 <section class="about">
   <div class="about-container">
 
-    <!-- ❗ Added image here, matching index.html format -->
     <img src="image2.jpg" alt="">
 
     <div class="info-box" style="align-items:flex-start; text-align:left;">
       <h1>Contact</h1>
 
-      <p>If you'd like to get in touch, feel free to reach out through the platforms below:</p>
+      <p>If you'd like to get in touch, send me a message below.</p>
 
-      <div class="socials" style="margin-top:1rem;">
+      <!-- Contact Form -->
+      <form action="https://formspree.io/f/mojnwdro" method="POST" class="contact-form">
+        
+        <input type="hidden" name="_subject" value="New message from portfolio website">
+        <input type="text" name="_honey" style="display:none">
+        <input type="hidden" name="_captcha" value="false">
+
+        <input 
+          type="email" 
+          name="email" 
+          placeholder="Your Email"
+          required
+        >
+
+        <textarea 
+          name="message" 
+          placeholder="Your Message"
+          required
+        ></textarea>
+
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+
+      <div class="socials" style="margin-top:2rem;">
         <a href="https://github.com/zacharykrobinson1-dev" target="_blank">
           <i class="fa-brands fa-github"></i>
         </a>
@@ -53,12 +74,6 @@
       <p style="margin-top:1rem; opacity:0.8;">
         Email: robi1383@msu.edu
       </p>
-
-      <div class="btn-group" style="margin-top: 1.5rem;">
-        <a href="tel:+1234567890" class="btn">
-          <i class="fa-solid fa-phone"></i> Call Me
-        </a>
-      </div>
 
     </div>
   </div>
